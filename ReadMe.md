@@ -2,7 +2,7 @@
 ### Downloads 
 * [spotify](https://www.spotify.com/us/download/mac/)
 * [VS Code](https://code.visualstudio.com/Download)
-* [Powershell for Mac](Installing PowerShell on macOS)
+* [Powershell for Mac](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.2))
 * [Firefox](https://www.mozilla.org/nb-NO/firefox/mac/)
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge?r=1#evergreen)
 * [chrome](https://www.google.com/chrome/)
