@@ -16,6 +16,10 @@
 * [Slack](https://slack.com/beta/mac)
 * [ShiftIt](https://github.com/fikovnik/ShiftIt/releases)
 
+### Install HomneBrew
+# install [homebrew] (https://docs.brew.sh/Installation)
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 ### Development
 ```bash
 # git configuration setup
@@ -30,12 +34,13 @@
 # Generate SSH keys (provide a good passphrase when asked)
 ssh-keygen -t rsa -C "johndoe@example.com"
 
-# install [homebrew] (https://docs.brew.sh/Installation)
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install dotfiles
+
+
+# install dot files
 # https://github.com/justinsoliz/dotfiles
 
+## Node
 # nvm/node.js
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
@@ -44,18 +49,13 @@ nvm i 8
 nvm i 10
 
 # install yarn (without node)
+* [How to Install Yarn on MacOS](https://tecadmin.net/install-yarn-macos/)
 brew install yarn --without-node
-
-
-# install [Alacritty Terminal] (https://alacritty.org/)
-mkdir -p ~/dev/bin && cd ~/dev/bin
-git clone https://github.com/jwilm/alacritty.git
-make app
-cp -r target/release/osx/Alacritty.app /Applications/
 
 
 cd ~
 
-# install other random things
+## install other random things
+# Tree - Display directories as trees (with optional color/HTML output)
 brew install tree
 ```
