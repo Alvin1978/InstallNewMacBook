@@ -23,16 +23,20 @@
 
 ### Install HomneBrew
 # install [homebrew] (https://docs.brew.sh/Installation)
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-### Install GIT
+```
+## Install GIT
 [Install and set up Git](https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git)
-#  it's recommended that you install Git through Homebrew 
+### it's recommended that you install Git through Homebrew 
+```
 brew install git
-# To update the Git install, use Homebrew's upgrade option:
+```
+### To update the Git install, use Homebrew's upgrade option:
+```
 brew upgrade git
-
-## Configure Git
+```
+### Configure Git
 ```bash
 # git configuration setup
 # git config --global push.default simple
