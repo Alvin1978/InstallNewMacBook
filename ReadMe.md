@@ -26,6 +26,10 @@
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+## Install xCode (Used for Git & PWSH
+```
+xcode-select --install
+```
 ## Install GIT
 [Install and set up Git](https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git)
 ### it's recommended that you install Git through Homebrew 
