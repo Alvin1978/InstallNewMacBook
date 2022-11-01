@@ -21,10 +21,15 @@
 * [Slack](https://slack.com/beta/mac)
 * [ShiftIt](https://github.com/fikovnik/ShiftIt/releases)
 
-### Install HomneBrew
-# install [homebrew] (https://docs.brew.sh/Installation)
+## Install HomneBrew
+### install [homebrew] (https://docs.brew.sh/Installation)
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+####
+To Update Brew
+```
+brew update
 ```
 ## Install xCode (Used for Git & PWSH
 ```

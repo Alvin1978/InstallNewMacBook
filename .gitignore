@@ -12,7 +12,7 @@
 
 # ignore all .a files
 # *.a
-
+.DS_Store
 # but do track lib.a, even though you're ignoring .a files above
 # !lib.a
 
